@@ -1,0 +1,67 @@
+import { ILicense, Issuer } from "@/interface/common";
+
+export const licenses: ILicense[] = [
+  {
+    id: "kxcdz9m3da",
+    name: "Introduction to LangGraph",
+    description: "Skills: LangChain · Large Language Models (LLM) · Agents",
+    issuedBy: Issuer.Langchain,
+    issueDate: new Date("2025-05-01"),
+  },
+  {
+    id: "UC-9fe736a2-04ca-44b7-a617-974e796e4whatd73",
+    name: "Webpack 5: The Complete Guide",
+    description: "Skills: Webpack",
+    issuedBy: Issuer.Udemy,
+    issueDate: new Date("2025-04-01"),
+  },
+  {
+    id: "UC-374d6f18-82a9-431f-8c65-02f321c482c1",
+    name: "Next.js 15 & React - The Complete Guide",
+    description: "Skills: Next.js · React.js",
+    issuedBy: Issuer.Udemy,
+    issueDate: new Date("2025-03-01"),
+  },
+  {
+    id: "UC-17713e40-2d20-463e-bc02-8c09ab4f4667",
+    name: "Learn Spring 5, Boot 2, JPA, AOP, Web MVC, REST",
+    description: "Skills: Spring Framework · Spring Boot · Spring MVC",
+    issuedBy: Issuer.Udemy,
+    issueDate: new Date("2025-03-01"),
+  },
+  {
+    id: "cert_hvgb9ww2",
+    name: "Introduction to Julia (for programmers)",
+    description: "Skills: Julia · Data Science · Functional Programming",
+    issuedBy: Issuer.TheJuliaProgramming,
+    issueDate: new Date("2021-01-01"),
+  },
+  {
+    id: "UC-8bda4263-ae33-4cbb-b746-d2f1f71f0989",
+    name: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+    description: "Skills: SQL · NoSQL · Databases · Relational Databases",
+    issuedBy: Issuer.Udemy,
+    issueDate: new Date("2020-11-01"),
+  },
+  {
+    id: "UC-0c7a23a8-2256-4ba7-8c17-1b043764425f",
+    name: "Modern HTML & CSS From The Beginning (Including Sass)",
+    description: "Skills: HTML5 · CSS3 · Sass · Responsive Web Design",
+    issuedBy: Issuer.Udemy,
+    issueDate: new Date("2020-11-01"),
+  },
+  {
+    id: "UC-c5c685da-8641-4efd-9345-2e59ccfb7662",
+    name: "JavaScript - The Complete Guide 2020 (Beginner + Advanced)",
+    description: "Skills: JavaScript ES6+ · DOM Manipulation · Asynchronous Programming",
+    issuedBy: Issuer.Udemy,
+    issueDate: new Date("2020-10-01"),
+  },
+  {
+    id: "UC-c23752ac-45f2-4277-8392-16c7cddb865a",
+    name: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    description: "Skills: React Hooks · Redux · React Router · Component Design",
+    issuedBy: Issuer.Udemy,
+    issueDate: new Date("2020-10-01"),
+  },
+];
