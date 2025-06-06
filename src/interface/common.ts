@@ -41,3 +41,11 @@ export enum Issuer {
   TheJuliaProgramming = "TheJuliaProgramming"
 }
 
+export interface IProjects {
+    id: string;
+    name: string;
+    description: string;
+    url: string;
+    youTubeUrl?: string;
+}
+
