@@ -7,6 +7,7 @@ export const licenses: ILicense[] = [
     description: "Skills: LangChain · Large Language Models (LLM) · Agents",
     issuedBy: Issuer.Langchain,
     issueDate: new Date("2025-05-01"),
+    url: "https://academy.langchain.com/certificates/kxcdz9m3da",
   },
   {
     id: "UC-9fe736a2-04ca-44b7-a617-974e796e4whatd73",
@@ -14,6 +15,7 @@ export const licenses: ILicense[] = [
     description: "Skills: Webpack",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2025-04-01"),
+    url: "https://www.udemy.com/certificate/UC-9fe736a2-04ca-44b7-a617-974e796e4whatd73/",
   },
   {
     id: "UC-374d6f18-82a9-431f-8c65-02f321c482c1",
@@ -21,6 +23,7 @@ export const licenses: ILicense[] = [
     description: "Skills: Next.js · React.js",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2025-03-01"),
+    url: "https://www.udemy.com/certificate/UC-374d6f18-82a9-431f-8c65-02f321c482c1/",
   },
   {
     id: "UC-17713e40-2d20-463e-bc02-8c09ab4f4667",
@@ -28,6 +31,15 @@ export const licenses: ILicense[] = [
     description: "Skills: Spring Framework · Spring Boot · Spring MVC",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2025-03-01"),
+    url: "https://www.udemy.com/certificate/UC-17713e40-2d20-463e-bc02-8c09ab4f4667/",
+  },
+  {
+    id: "fc2418be-3925-470f-a1cc-2d32a29b524c",
+    name: "Data Science Orientation",
+    description: "Skills: Pythin · Data Science · Data Analysis",
+    issuedBy: Issuer.Coursera,
+    issueDate: new Date("2021-01-26"),
+    url: "https://www.youracclaim.com/badges/fc2418be-3925-470f-a1cc-2d32a29b524c?source=linked_in_profile",
   },
   {
     id: "cert_hvgb9ww2",
@@ -42,6 +54,7 @@ export const licenses: ILicense[] = [
     description: "Skills: SQL · NoSQL · Databases · Relational Databases",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2020-11-01"),
+    url: "https://www.udemy.com/certificate/UC-8bda4263-ae33-4cbb-b746-d2f1f71f0989/",
   },
   {
     id: "UC-0c7a23a8-2256-4ba7-8c17-1b043764425f",
@@ -49,6 +62,7 @@ export const licenses: ILicense[] = [
     description: "Skills: HTML5 · CSS3 · Sass · Responsive Web Design",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2020-11-01"),
+    url: "https://www.udemy.com/certificate/UC-0c7a23a8-2256-4ba7-8c17-1b043764425f/",
   },
   {
     id: "UC-c5c685da-8641-4efd-9345-2e59ccfb7662",
@@ -56,6 +70,7 @@ export const licenses: ILicense[] = [
     description: "Skills: JavaScript ES6+ · DOM Manipulation · Asynchronous Programming",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2020-10-01"),
+    url: "https://www.udemy.com/certificate/UC-c5c685da-8641-4efd-9345-2e59ccfb7662/",
   },
   {
     id: "UC-c23752ac-45f2-4277-8392-16c7cddb865a",
@@ -63,5 +78,6 @@ export const licenses: ILicense[] = [
     description: "Skills: React Hooks · Redux · React Router · Component Design",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2020-10-01"),
+    url: "https://www.udemy.com/certificate/UC-c23752ac-45f2-4277-8392-16c7cddb865a/",
   },
 ];
