@@ -80,4 +80,12 @@ export const licenses: ILicense[] = [
     issueDate: new Date("2020-10-01"),
     url: "https://www.udemy.com/certificate/UC-c23752ac-45f2-4277-8392-16c7cddb865a/",
   },
+  {
+    id:"UC-d46bc415-92b8-43c5-9654-9de385cdf6e8",
+    name:"Docker & Kubernetes: The Practical Guide [2025 Edition]",
+    description:"Skills: Docker · Kubernetes · Containerization · Microservices",
+    issuedBy: Issuer.Udemy,
+    issueDate: new Date("2025-06-07"),
+    url: "https://www.udemy.com/certificate/UC-d46bc415-92b8-43c5-9654-9de385cdf6e8/",
+  }
 ];
