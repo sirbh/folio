@@ -41,4 +41,11 @@ export const projects: IProjects[] = [{
     description: "An chat application that allows users to search for books using natural language queries. It uses a generative AI model to understand user queries and provide relevant book recommendations.",
     url: "https://github.com/sirbh/genUI-bookstore",
     youTubeUrl: "https://youtu.be/x8Iigdp94A8"
-}]
+},
+{
+    id: "7",
+    name: "Vibe Coder",
+    description: "An app where user can create project by just providing natural language description. It uses generative AI to create a project structure and code based on the user's input. Backed by NextJs, LangChain, and OpenAI. It create empty NextJs project and updates it according to user description.",
+    url: "https://github.com/sirbh/vibe-coder",
+    youTubeUrl: "https://youtu.be/ekxf3vUaCzo"
+}] 
