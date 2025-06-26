@@ -2,6 +2,14 @@ import { ILicense, Issuer } from "@/interface/common";
 
 export const licenses: ILicense[] = [
   {
+    id: "10vtd2pwdi",
+    name: "Building Ambient Agents with LangGraph",
+    description: "Skills:LangGraph · Email Agent Development · LangSmith Evaluation · Human-in-the-Loop · Agent Memory · Adaptive Agents · Deployment · Gmail Integration",
+    issuedBy: Issuer.Langchain,
+    issueDate: new Date("2025-06-26"),
+    url: "https://academy.langchain.com/certificates/10vtd2pwdi",
+  },
+  {
     id: "kxcdz9m3da",
     name: "Introduction to LangGraph",
     description: "Skills: LangChain · Large Language Models (LLM) · Agents",
