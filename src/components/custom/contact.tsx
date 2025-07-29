@@ -42,12 +42,12 @@ export default function Contact() {
                         </Link>
                     </div>
                     <div className="flex items-center gap-3">
-                        <Image
+{/*                         <Image
                             src="/images/linkedin.png"
                             alt="LinkedIn"
                             width={20}
                             height={20}
-                        />
+                        /> */}
 {/*                         <Link
                             href="https://www.linkedin.com/in/saurabh-chauhan-48364b1b9/"
                             target="_blank"
