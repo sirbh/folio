@@ -48,14 +48,14 @@ export default function Contact() {
                             width={20}
                             height={20}
                         />
-                        <Link
+{/*                         <Link
                             href="https://www.linkedin.com/in/saurabh-chauhan-48364b1b9/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:underline"
                         >
                             https://www.linkedin.com/in/saurabh-chauhan-48364b1b9/
-                        </Link>
+                        </Link> */}
                     </div>
                 </CardContent>
             </Card>
