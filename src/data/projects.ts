@@ -1,6 +1,14 @@
 import { IProjects } from "@/interface/common";
 
-export const projects: IProjects[] = [{
+export const projects: IProjects[] = [
+{
+    id: "0",
+    name: "Health Care Assistant",
+    description: "This assistant is a multi-agent app that takes user symptoms and provides diagnosis and lifestyle advice.",
+    url: "https://github.com/sirbh/healthcare-assistant",
+    youTubeUrl: "https://www.youtube.com/watch?v=NPTSWdafa-c"
+},
+{
     id: "1",
     name: "Carpass",
     description: "An phone app used to make car inspection easy and efficient. It allows users to take photos of their car, add details, and share the inspection report with others.",
