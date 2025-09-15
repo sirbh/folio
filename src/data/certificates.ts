@@ -2,9 +2,18 @@ import { ILicense, Issuer } from "@/interface/common";
 
 export const licenses: ILicense[] = [
   {
+    id: "qmg1cuhvh5",
+    name: "Deep Research with LangGraph",
+    issuedBy: Issuer.Langchain,
+    issueDate: new Date("2025-08-01"),
+    description: "Deep Agent · Deep Research",
+    url: "https://academy.langchain.com/certificates/qmg1cuhvh5",
+  },
+  {
     id: "10vtd2pwdi",
     name: "Building Ambient Agents with LangGraph",
-    description: "Skills:LangGraph · Email Agent Development · LangSmith Evaluation · Human-in-the-Loop · Agent Memory · Adaptive Agents · Deployment · Gmail Integration",
+    description:
+      "Skills:LangGraph · Email Agent Development · LangSmith Evaluation · Human-in-the-Loop · Agent Memory · Adaptive Agents · Deployment · Gmail Integration",
     issuedBy: Issuer.Langchain,
     issueDate: new Date("2025-06-26"),
     url: "https://academy.langchain.com/certificates/10vtd2pwdi",
@@ -75,7 +84,8 @@ export const licenses: ILicense[] = [
   {
     id: "UC-c5c685da-8641-4efd-9345-2e59ccfb7662",
     name: "JavaScript - The Complete Guide 2020 (Beginner + Advanced)",
-    description: "Skills: JavaScript ES6+ · DOM Manipulation · Asynchronous Programming",
+    description:
+      "Skills: JavaScript ES6+ · DOM Manipulation · Asynchronous Programming",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2020-10-01"),
     url: "https://www.udemy.com/certificate/UC-c5c685da-8641-4efd-9345-2e59ccfb7662/",
@@ -83,17 +93,19 @@ export const licenses: ILicense[] = [
   {
     id: "UC-c23752ac-45f2-4277-8392-16c7cddb865a",
     name: "React - The Complete Guide (incl Hooks, React Router, Redux)",
-    description: "Skills: React Hooks · Redux · React Router · Component Design",
+    description:
+      "Skills: React Hooks · Redux · React Router · Component Design",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2020-10-01"),
     url: "https://www.udemy.com/certificate/UC-c23752ac-45f2-4277-8392-16c7cddb865a/",
   },
   {
-    id:"UC-d46bc415-92b8-43c5-9654-9de385cdf6e8",
-    name:"Docker & Kubernetes: The Practical Guide [2025 Edition]",
-    description:"Skills: Docker · Kubernetes · Containerization · Microservices",
+    id: "UC-d46bc415-92b8-43c5-9654-9de385cdf6e8",
+    name: "Docker & Kubernetes: The Practical Guide [2025 Edition]",
+    description:
+      "Skills: Docker · Kubernetes · Containerization · Microservices",
     issuedBy: Issuer.Udemy,
     issueDate: new Date("2025-06-07"),
     url: "https://www.udemy.com/certificate/UC-d46bc415-92b8-43c5-9654-9de385cdf6e8/",
-  }
+  },
 ];
